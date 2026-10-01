@@ -1,0 +1,6 @@
+{
+  "name": "Admin Money",
+  "description": "Plataforma de gestão financeira pessoal inteligente, controle de gastos, orçamentos, metas e insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

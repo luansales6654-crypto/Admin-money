@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #050706;
+    --bg-secondary: #0A0E0C;
+    --card: #101613;
+    --card-elevated: #151D18;
+    --border: #1F2B23;
+    --border-hover: #2E4236;
+    --text-primary: #FFFFFF;
+    --text-secondary: #9CAE9F;
+    --text-muted: #65796A;
+    --money-green: #00E676;
+    --money-green-dark: #00B359;
+    --money-green-light: #69F0AE;
+    --money-green-glow: rgba(0, 230, 118, 0.15);
+    --negative: #FF5252;
+    --warning: #FFB300;
+    --accent: #00E676;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom sleek scrollbar with money green touch */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0E0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F2B23;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00E676;
+}
